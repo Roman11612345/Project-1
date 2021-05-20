@@ -1,30 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Sass/style.css">
+    <link rel="stylesheet" href="Sass/normalize.css" type="text/css" >
+    <link rel="stylesheet" href="Sass/style.css" type="text/css" >
 </head>
 <body>
     <div class="top-block">
-        <div class="header">
-            <div class="logo">
-                <img src="" alt="Logo: LeRestaraunte">
+        <div class="top-block__content">
+            <div class="header">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="Logo: LeRestaraunte" class="logo__image">
+                </div>
+                <!-- /.logo -->
+                <nav class="menu">
+                    <div class="menu__list">
+                        <a href="#" class="menu__item"> Price List </a>
+                        <a href="#" class="menu__item"> Opening Hours </a>
+                        <a href="#" class="menu__item"> About us </a>
+                        <a href="#" class="menu__item"> Contacts </a>
+                    </div>
+                </nav>
+                <!-- /.menu -->
             </div>
-            <!-- /.logo -->
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__item"></li>
-                    <li class="menu__item"></li>
-                    <li class="menu__item"></li>
-                    <li class="menu__item"></li>
-                </ul>
-            </nav>
-            <!-- /.menu -->
+            <!-- /.header -->
+            <div class="message-wrapper">
+                <div class="message">
+                    <div class="message__content">
+                        <h1 class="message__title">
+                            For meat lovers
+                        </h1>
+                        <button class="button message__button">
+                            Full menu
+                        </button>
+                        <!-- /.message__link -->
+                    </div>
+                    <!-- /.message__content -->
+                </div>
+                <!-- /.message -->
+                <div class="message message__center">
+                    <div class="message__content">
+                        <h1 class="message__title">
+                            Vegetarian & Vegan
+                        </h1>
+                        <button class="button message__button">
+                            Full menu
+                        </button>
+                        <!-- /.message__link -->
+                    </div>
+                    <!-- /.message__content -->
+                </div>
+                <!-- /.message -->
+                <div class="message">
+                    <div class="message__content">
+                        <h1 class="message__title">
+                            See our secrets
+                        </h1>
+                        <button class="button message__button message__button--third">
+                            Take me there
+                        </button>
+                        <!-- /.message__link -->
+                    </div>
+                    <!-- /.message__content -->
+                </div>
+                <!-- /.message -->
+            </div>
+            <!-- /.message-wrapper -->
         </div>
-        <!-- /.header -->
+        <!-- /.top-block__content -->
     </div>
     <!-- /.top-block -->
 </body>

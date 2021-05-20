@@ -1,0 +1,95 @@
+@import "variables"
+.top-block
+  width: 100%
+  background-image: url("../img/top_block_back.jpg")
+  background-size: 100%
+  background-repeat: no-repeat
+  &__content
+    padding-top: 71px * $coef
+    padding-left: 71px * $coef
+    padding-bottom: 439px * $coef
+
+.header
+  display: flex
+  justify-content: space-between
+  height: 60px * $coef
+  max-width: 1371px * $coef
+
+.logo
+  max-width: 269px * $coef
+  &__image
+    width: 100%
+
+.menu
+  width: 657px * $coef
+  &__list
+    display: flex
+    padding-left: 0
+    justify-content: space-between
+    list-style-type: none
+    margin: 12px 0
+  &__item
+    text-transform: uppercase
+    font-size: 22px * $coef
+    font-style: italic
+    font-weight: bold
+    color: #fff
+    &:first-child
+      color: #f1ac11
+      padding-bottom: 18px * $coef
+      border-bottom: 2px solid #f1ac11
+
+.message-wrapper
+  max-width: 1773px * $coef
+  height: 263px * $coef
+  margin-top: 269px * $coef
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+
+.button
+  padding: 11px * $coef 40px * $coef
+  background-color: #f1ac11
+  font-size: 12px * $coef
+  border: 0
+  border-radius: 3.5px
+
+.message
+  display: flex
+  justify-content: center
+  width: 373px * $coef
+  height: 207px * $coef
+  background-image: url("../img/message.png")
+  background-size: cover
+  background-repeat: no-repeat
+  opacity: 0.4
+  &__center
+    align-self: flex-start
+    opacity: 0.85
+  &__title
+    text-transform: uppercase
+    text-align: center
+    font-size: 38px * $coef
+    font-weight: bold
+    margin: 0
+    padding-top: 40px * $coef
+    padding-bottom: 22px * $coef
+  &__content
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    max-height: 130px * $coef
+    max-width: 56%
+  &__button
+    max-width: 141px * $coef
+    text-transform: uppercase
+    text-align: center
+    &--third
+      padding: 11px * $coef 27px * $coef
+
+
+
+
+
+
