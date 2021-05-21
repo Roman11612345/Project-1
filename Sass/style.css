@@ -21,7 +21,7 @@ a {
   display: flex;
   justify-content: space-between;
   height: 39.6px;
-  max-width: 904.86px; }
+  width: 74%; }
 
 .logo {
   max-width: 177.54px; }
@@ -65,11 +65,10 @@ a {
 .message {
   display: flex;
   justify-content: center;
-  width: 246.18px;
-  height: 136.62px;
+  width: 21%;
+  height: 78%;
   background-image: url("../img/message.png");
   background-size: cover;
-  background-repeat: no-repeat;
   opacity: 0.4; }
   .message__center {
     align-self: flex-start;
