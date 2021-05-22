@@ -1,0 +1,96 @@
+@import "variables"
+
+.daily-menu-block
+  padding-top: 81px * $coef
+  padding-left: 26.5%
+
+.daily-content
+  display: flex
+  justify-content: flex-start
+  width: 58%
+
+.daily-menu
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  max-width: 900px * $coef
+  &__title
+    display: block
+    margin: 0
+    padding-left: 334px * $coef
+    font-size: 42px * $coef
+    font-style: italic
+    font-weight: normal
+    text-transform: uppercase
+    color: #F1AC11
+    padding-bottom: 41px * $coef
+    padding-right: 265px * $coef
+  &--vegan
+    width: 900px * $coef
+    font-size: 14px * $coef
+    font-style: italic
+    font-weight: bold
+    text-transform: uppercase
+  &-item
+    display: flex
+    align-items: center
+    max-width: 409px * $coef
+    max-height: 120px * $coef
+    padding-top: 40px * $coef
+    &__img
+      max-width: 80px * $coef
+      flex-shrink: 0
+    &__content
+      position: relative
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      margin-left: 31px * $coef
+      max-width: 300px * $coef
+    &__title
+      margin: 0
+      padding-top: 2px * $coef
+      font-size: 18px * $coef
+      text-transform: uppercase
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+      &:after
+        content: ".........................................."
+    &__price
+      position: absolute
+      right: 0
+      top: 0
+      width: 45px * $coef
+      height: 28px * $coef
+      background-image: url("../img/price_back.png")
+      background-size: cover
+      padding-top: 2px * $coef
+      text-align: center
+      font-size: 18px * $coef
+    &__subtitle
+      display: flex
+      justify-content: space-between
+      width: 300px * $coef
+      padding-top: 15px * $coef
+      font-size: 13px * $coef
+      font-style: italic
+      font-weight: normal
+      text-transform: uppercase
+      color: #BCBCBC
+    &__numbers
+      flex-shrink: 0
+    &__alergens
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+      &:after
+        content: ".................................................................................."
+
+
+
+
+
+
+
+

@@ -7,6 +7,9 @@ body {
 a {
   text-decoration: none; }
 
+img {
+  width: 100%; }
+
 .top-block {
   width: 100%;
   background-image: url("../img/top_block_back.jpg");
@@ -94,5 +97,92 @@ a {
     text-align: center; }
     .message__button--third {
       padding: 7.26px 17.82px; }
+
+.daily-menu-block {
+  padding-top: 53.46px;
+  padding-left: 26.5%; }
+
+.daily-content {
+  display: flex;
+  justify-content: flex-start;
+  width: 58%; }
+
+.daily-menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 594px; }
+  .daily-menu__title {
+    display: block;
+    margin: 0;
+    padding-left: 220.44px;
+    font-size: 27.72px;
+    font-style: italic;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #F1AC11;
+    padding-bottom: 27.06px;
+    padding-right: 174.9px; }
+  .daily-menu--vegan {
+    width: 594px;
+    font-size: 9.24px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .daily-menu-item {
+    display: flex;
+    align-items: center;
+    max-width: 269.94px;
+    max-height: 79.2px;
+    padding-top: 26.4px; }
+    .daily-menu-item__img {
+      max-width: 52.8px;
+      flex-shrink: 0; }
+    .daily-menu-item__content {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-left: 20.46px;
+      max-width: 198px; }
+    .daily-menu-item__title {
+      margin: 0;
+      padding-top: 1.32px;
+      font-size: 11.88px;
+      text-transform: uppercase;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      .daily-menu-item__title:after {
+        content: ".........................................."; }
+    .daily-menu-item__price {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 29.7px;
+      height: 18.48px;
+      background-image: url("../img/price_back.png");
+      background-size: cover;
+      padding-top: 1.32px;
+      text-align: center;
+      font-size: 11.88px; }
+    .daily-menu-item__subtitle {
+      display: flex;
+      justify-content: space-between;
+      width: 198px;
+      padding-top: 9.9px;
+      font-size: 8.58px;
+      font-style: italic;
+      font-weight: normal;
+      text-transform: uppercase;
+      color: #BCBCBC; }
+    .daily-menu-item__numbers {
+      flex-shrink: 0; }
+    .daily-menu-item__alergens {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      .daily-menu-item__alergens:after {
+        content: ".................................................................................."; }
 
 /*# sourceMappingURL=style.css.map */
