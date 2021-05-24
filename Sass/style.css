@@ -245,4 +245,42 @@ img {
       padding-left: 8.58px;
       padding-right: 8.58px; }
 
+.about-us {
+  padding: 53.46px 446.16px;
+  background-image: url("../img/about_us__back.png");
+  background-size: cover; }
+  .about-us-message {
+    max-width: 374.88px;
+    padding: 46.2px 44.88px;
+    background-image: url("../img/about_us_message__back.png");
+    background-size: cover; }
+    .about-us-message__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+    .about-us-message__title {
+      margin: 0;
+      font-size: 18.48px;
+      font-style: italic;
+      font-weight: normal;
+      text-transform: uppercase;
+      padding-bottom: 26.4px; }
+    .about-us-message__info {
+      display: flex;
+      justify-content: space-between;
+      width: 285.12px;
+      padding-bottom: 25.74px; }
+    .about-us-message__logo {
+      max-width: 147.84px; }
+    .about-us-message__text {
+      max-width: 91.08px;
+      font-size: 11.88px;
+      font-style: italic;
+      font-weight: bold; }
+    .about-us-message__button {
+      font-size: 9.24px;
+      font-style: italic;
+      text-transform: uppercase;
+      font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
