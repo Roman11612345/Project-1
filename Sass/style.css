@@ -251,7 +251,7 @@ img {
   background-size: cover; }
   .about-us-message {
     max-width: 374.88px;
-    padding: 46.2px 44.88px;
+    padding: 13% 3.5%;
     background-image: url("../img/about_us_message__back.png");
     background-size: cover; }
     .about-us-message__content {
