@@ -99,13 +99,15 @@ img {
       padding: 7.26px 17.82px; }
 
 .daily-menu-block {
+  display: flex;
   padding-top: 53.46px;
   padding-left: 26.5%; }
 
 .daily-content {
   display: flex;
   justify-content: flex-start;
-  width: 58%; }
+  flex-wrap: wrap;
+  width: 668.58px; }
 
 .daily-menu {
   display: flex;
@@ -184,5 +186,63 @@ img {
       text-overflow: ellipsis; }
       .daily-menu-item__alergens:after {
         content: ".................................................................................."; }
+
+.daily-slider {
+  display: flex;
+  align-items: center;
+  max-height: 314.82px;
+  padding-top: 64.68px;
+  padding-bottom: 51.48px; }
+  .daily-slider__arrow {
+    font-size: 9.24px;
+    font-style: italic;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #f1ac11;
+    padding-left: 15.18px; }
+  .daily-slider-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../img/daily_slider_content__back.png");
+    background-size: cover;
+    width: 594.66px;
+    height: 198.66px; }
+    .daily-slider-content__img {
+      max-width: 297.66px; }
+    .daily-slider-content__text {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding-left: 316.8px;
+      align-self: center;
+      max-width: 537.24px; }
+    .daily-slider-content__subtitle {
+      margin: 0;
+      font-size: 7.92px;
+      font-style: italic;
+      font-weight: normal;
+      text-transform: uppercase;
+      color: #f1ac11;
+      padding-bottom: 13.2px; }
+    .daily-slider-content__title {
+      margin: 0;
+      font-size: 15.84px;
+      font-style: italic;
+      font-weight: normal;
+      text-transform: uppercase;
+      padding-bottom: 17.16px; }
+    .daily-slider-content__paragraph {
+      margin: 0;
+      font-size: 9.24px;
+      font-style: italic;
+      font-weight: normal;
+      color: #D4D4D4;
+      padding-bottom: 15.18px; }
+    .daily-slider-content__button {
+      font-size: 9.24px;
+      font-style: italic;
+      text-transform: uppercase;
+      padding-left: 8.58px;
+      padding-right: 8.58px; }
 
 /*# sourceMappingURL=style.css.map */

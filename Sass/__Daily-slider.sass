@@ -1,0 +1,59 @@
+@import "variables"
+
+.daily-slider
+  display: flex
+  align-items: center
+  max-height: 477px * $coef
+  padding-top: 98px * $coef
+  padding-bottom: 78px * $coef
+  &__arrow
+    font-size: 14px * $coef
+    font-style: italic
+    font-weight: normal
+    text-transform: uppercase
+    color: #f1ac11
+    padding-left: 23px * $coef
+  &-content
+    display: flex
+    flex-wrap: wrap
+    background-image: url("../img/daily_slider_content__back.png")
+    background-size: cover
+    width: 901px * $coef
+    height: 301px * $coef
+    &__img
+      max-width: 451px * $coef
+    &__text
+      display: flex
+      flex-wrap: wrap
+      justify-content: flex-start
+      padding-left: 480px * $coef
+      align-self: center
+      max-width: 814px * $coef
+    &__subtitle
+      margin: 0
+      font-size: 12px * $coef
+      font-style: italic
+      font-weight: normal
+      text-transform: uppercase
+      color: #f1ac11
+      padding-bottom: 20px * $coef
+    &__title
+      margin: 0
+      font-size: 24px * $coef
+      font-style: italic
+      font-weight: normal
+      text-transform: uppercase
+      padding-bottom: 26px * $coef
+    &__paragraph
+      margin: 0
+      font-size: 14px * $coef
+      font-style: italic
+      font-weight: normal
+      color: #D4D4D4
+      padding-bottom: 23px * $coef
+    &__button
+      font-size: 14px * $coef
+      font-style: italic
+      text-transform: uppercase
+      padding-left: 13px * $coef
+      padding-right: 13px * $coef
